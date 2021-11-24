@@ -1,0 +1,106 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: green;   
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    background-color: green;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: red;
+    border:none;
+    
+}
+
+.pinky {
+    background-color: pink;
+    border:none;
+}
+
+.inky {
+    background-color: cyan;
+    border:none;
+}
+
+.clyde {
+    background-color: orange;
+    border:none;     
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+}
+
+
+.messageBox{
+    border: 1px solid black;
+    padding: 2px;
+    min-height: 200px;
+    width:560px;
+    overflow: scroll;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+}
+
+#userMessage{
+    width:560px;
+}
+
+
+.grid-sec {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 140px;
+    border: solid black;
+}
+  
+.grid-sec div {
+    width: 5px;
+    height: 5px;
+}
+
+.pac-dot-sec {
+    background-color: green;   
+    border: 1.25px solid white;
+    box-sizing: border-box;
+}
+
+.power-pellet-sec {
+    background-color: green;
+    border-radius: 2.5px;
+}
+
+.pac-man-sec {
+    background-color: #F6BE00;
+    border-radius: 2.5px;
+}
+
